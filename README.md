@@ -32,6 +32,7 @@ Install dependencies with:
 
 ```bash
 pip install pandas matplotlib scikit-learn
+```
 
 ## ⚙️ Usage
 python3 model.py
