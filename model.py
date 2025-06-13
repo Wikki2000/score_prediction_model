@@ -52,3 +52,9 @@ print("Training MAE:", round(mae_training, 2))
 y_pred_testing = pipeline.predict(X_test)
 mae_testing = mean_absolute_error(y_test, y_pred_testing)
 print("Testing MAE:", round(mae_training, 2))
+
+model = pipeline.named_steps["model"]
+intercept = model.intercept_
+coefficients = model.coef_[0]
+
+print("Model Eqn: ", f"score = ({coefficients:.3f} * time) + {intercept:.3f}")
