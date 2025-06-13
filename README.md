@@ -32,21 +32,22 @@ Install dependencies with:
 
 ```bash
 pip install pandas matplotlib scikit-learn
+```
 
 ## ⚙️ Usage
 python3 model.py
 
 ## Output:
--- Baseline MAE (using mean predictor)
+- Baseline MAE (using mean predictor)
 
--- Model MAE (trained Linear Regression)
+- Model MAE (trained Linear Regression)
 
--- Scatter plot visualization saved as score_vs_hours.png
+- Scatter plot visualization saved as score_vs_hours.png
 ## 📌 Why This Project?
 This project was built to:
 
--- Understand the basics of regression modeling
+- Understand the basics of regression modeling
 
--- Learn about model evaluation with baseline comparison
+- Learn about model evaluation with baseline comparison
 
--- Practice using pipelines and imputation for preprocessing
+- Practice using pipelines and imputation for preprocessing
